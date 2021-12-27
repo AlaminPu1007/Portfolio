@@ -1,0 +1,438 @@
+.dashboard-container {
+  /* width: 100%;
+  border: 5px solid;
+  display: flex;
+  justify-content: center; */
+}
+
+.heder-container {
+  background-image: linear-gradient(to right, #484aab, #a17f9a);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.dashboard-container .body-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #484aab, #a17f9a);
+  /* background-color: #efede9; */
+  z-index: 1;
+}
+
+nav .nav-bar {
+  width: 80%;
+  display: flex;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+nav a {
+  color: #6a6867;
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 5px;
+  list-style-type: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #888dc4;
+}
+
+nav ul li a {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+nav ul li:hover a {
+  color: rgb(231, 231, 231);
+}
+
+nav a:active {
+  color: #888dc4;
+}
+
+.li-drawer {
+  display: none;
+  border-bottom: 2px solid transparent !important;
+}
+
+.nav-bar .logo-menu {
+  display: flex;
+}
+
+.nav-bar .logo-menu .drawer {
+  /* border: 1px solid; */
+  display: none;
+}
+
+.drawer-menu {
+  cursor: pointer;
+  margin: 0.8rem;
+}
+.heder-container .image-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  width: 90%;
+  justify-content: center;
+}
+
+.heder-container .image-container .image-div {
+  width: 30%;
+  overflow: hidden;
+}
+
+.heder-container .image-container .image-div .image-style {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #b9b9db;
+}
+
+.heder-container .image-container .personal-info {
+  color: #fff;
+  margin-left: 2rem;
+  width: 60%;
+}
+
+.personal-info .name-designation h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.personal-info .name-designation h3 {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.personal-info .email-phone {
+  margin: 2.5rem 0 0 0;
+}
+
+.personal-info .email-phone a,
+.social-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.personal-info .email-phone p {
+  margin: 0;
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.personal-info .social-icon {
+  margin: 1rem 0;
+}
+
+.personal-info .social-icon a {
+  margin: 0 0.5rem;
+  color: #b9b9db;
+}
+
+.personal-info .social-icon a:hover {
+  margin: 0 0.5rem;
+  color: #fff;
+}
+
+.personal-info .button-style {
+  margin: 2rem 0 0 0;
+}
+
+.personal-info .button-style .custom-button {
+  border: 1px solid;
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  border-radius: 50rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.personal-info .button-style .custom-button:hover {
+  background-color: #7f63e7;
+  border: 1px solid transparent;
+}
+/* start main part styles here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.main-container .main-body-container {
+  width: 90%;
+  padding: 2rem 0;
+}
+
+.main-container .main-body-container .myself-about {
+  width: 80%;
+}
+.main-container .main-body-container .myself-about p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.main-container .main-body-container .services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-container .main-body-container .services-container .services-section {
+  border-bottom: 8px solid transparent;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15% 0;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-container
+  .main-body-container
+  .services-container
+  .services-section
+  .icon-style {
+  border: 1px solid transparent;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.main-container
+  .main-body-container
+  .services-container
+  .services-section:hover {
+  border-bottom: 8px solid #7f63e7;
+  transition: border-bottom 0.5s ease-in-out;
+}
+
+.main-container .main-body-container .services-container .services-section h3 {
+  padding: 2rem 0;
+}
+
+.main-container .main-body-container .services-container .services-section p {
+  margin: 0 2rem;
+}
+
+/* My portfolio styles */
+.main-container .main-body-container .my-projects {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  /* border: 1px solid; */
+}
+.main-container .main-body-container .my-projects .single-project {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.main-container .main-body-container .my-projects .single-project:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-container .main-body-container .my-projects .single-project img {
+  width: 450px;
+  height: 400px;
+  object-fit: contain;
+  border: 1px solid #c8c9ce;
+  border-radius: 10px;
+}
+.main-container .main-body-container .my-projects .single-project p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main-container
+  .main-body-container
+  .my-projects
+  .single-project
+  .project-description {
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.main-container
+  .main-body-container
+  .my-projects
+  .single-project
+  .project-description
+  .project-tag {
+  padding: 5px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 0 5px;
+  color: #6a6867;
+}
+
+.main-container
+  .main-body-container
+  .my-projects
+  .single-project
+  .project-description
+  a {
+  text-decoration: none;
+  color: #7f63e7;
+  font-weight: 500;
+}
+
+/* Responsive screen */
+/* for tablet  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-bar .logo-menu .drawer {
+    display: block;
+  }
+
+  .nav-bar .logo-menu .main-nav-menu {
+    display: none;
+  }
+
+  .body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heder-container .image-container {
+    flex-direction: column;
+  }
+
+  .heder-container .image-container .image-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heder-container .image-container .personal-info {
+    margin: 3rem 0 3rem 5rem;
+  }
+
+  .main-container .main-body-container .services-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-container .main-body-container .my-projects .single-project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container .main-body-container .my-projects .single-project img {
+    margin: 2rem 0;
+  }
+
+  .main-container
+    .main-body-container
+    .my-projects
+    .single-project
+    .project-description {
+    width: 90%;
+    /* margin: 4rem 4rem; */
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+/* for mobile  */
+@media only screen and (max-width: 767px) {
+  .nav-bar .logo-menu .drawer {
+    display: block;
+  }
+
+  .nav-bar .logo-menu .main-nav-menu {
+    display: none;
+  }
+
+  .body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heder-container .image-container {
+    flex-direction: column;
+  }
+
+  .heder-container .image-container .image-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heder-container .image-container .personal-info {
+    margin: 3rem 0;
+    width: 100%;
+  }
+
+  .main-container .main-body-container .services-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-container .main-body-container .my-projects .single-project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container .main-body-container .my-projects .single-project img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .main-container
+    .main-body-container
+    .my-projects
+    .single-project
+    .project-description {
+    width: 95%;
+    margin: 2rem 0;
+  }
+
+  .main-container
+    .main-body-container
+    .my-projects
+    .single-project
+    .project-description
+    .container_project_tag {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 0.5rem;
+  }
+  footer {
+    display: none;
+  }
+}
