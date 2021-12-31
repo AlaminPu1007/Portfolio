@@ -9,6 +9,7 @@ import enosis from "../image/enosis.PNG";
 import English from "../image/english.PNG";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { BiArrowToBottom } from "react-icons/bi";
+import { GrDeploy } from "react-icons/gr";
 import Header from "./Header";
 
 const Dashboard = () => {
@@ -66,10 +67,15 @@ const Dashboard = () => {
                 </a>
               </div>
               <div className="button-style">
-                <button type="button" class="custom-button">
+                <a
+                  href="https://drive.google.com/u/0/uc?id=1uKtTkKzV2KPuyfD83an903HEgrBV8CKp&export=download"
+                  type="button"
+                  class="custom-button"
+                  style={{ textDecoration: "none" }}
+                >
                   <BiArrowToBottom size={20} style={{ margin: "0 5px" }} />
                   Resume
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -128,7 +134,8 @@ const Dashboard = () => {
                   </p>
                 </div>
                 <div className="services-section">
-                  <h3>Mobile Development</h3>
+                  <GrDeploy size={50} />
+                  <h3>Deploy Applications</h3>
                   <p>
                     I am a expert in web design.I can add functionality besides
                     designing a web page.I can use HTML,CSS,Bootstrap, Vanilla
@@ -205,7 +212,7 @@ const Dashboard = () => {
                       Authentication base. This is React Js base application.
                     </p>
                     <p>USED STACK:</p>
-                    <p  className="container_project_tag">
+                    <p className="container_project_tag">
                       <span className="project-tag">React Js</span>{" "}
                       <span className="project-tag"> JSX</span>
                       <span className="project-tag">Javascript</span>{" "}
@@ -248,7 +255,7 @@ const Dashboard = () => {
                       many more
                     </p>
                     <p>USED STACK:</p>
-                    <p  className="container_project_tag">
+                    <p className="container_project_tag">
                       <span className="project-tag">React-Native</span>{" "}
                       <span className="project-tag"> JSX</span>
                       <span className="project-tag">Javascript</span>{" "}
@@ -284,7 +291,7 @@ const Dashboard = () => {
                       Arabic, English letter) with their given music.
                     </p>
                     <p>USED STACK:</p>
-                    <p  className="container_project_tag">
+                    <p className="container_project_tag">
                       <span className="project-tag">React-Native</span>{" "}
                       <span className="project-tag"> JSX</span>
                       <span className="project-tag">Javascript</span>{" "}
