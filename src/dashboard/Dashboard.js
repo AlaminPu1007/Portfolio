@@ -1,12 +1,12 @@
 import React from "react";
 import "./dashboard.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { AiFillMobile, AiOutlineDesktop } from "react-icons/ai";
 import Image from "../image/alamin.png";
 import MealManager from "../image/mealManager.PNG";
 import Ecommerce from "../image/ecommerce.PNG";
 import enosis from "../image/enosis.PNG";
-import English from "../image/english.PNG";
+// import English from "../image/english.PNG";
 import GVIMAGE from "../image/gv.PNG";
 import MICPLE from "../image/micple.PNG";
 import AMAR_BORNOMALA from "../image/amar_bornomala.PNG";
