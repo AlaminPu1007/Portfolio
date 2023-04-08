@@ -26,7 +26,12 @@ const Dashboard = () => {
                     {/* Image with myself */}
                     <div className="image-container">
                         <div className="image-div">
-                            <img src={Image} className="image-style" />
+                            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt*/}
+                            <img
+                                src={Image}
+                                alt="image"
+                                className="image-style"
+                            />
                         </div>
                         <div className="personal-info">
                             <div className="name-designation">
@@ -43,6 +48,7 @@ const Dashboard = () => {
                                 <a
                                     href="http://maps.google.com/?q=1200 Mirpur-1, Dhaka-1216"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <p>ADDRESS : Mirpur-1, Dhaka-1216</p>
                                 </a>
@@ -53,28 +59,32 @@ const Dashboard = () => {
                                 <a
                                     target="_blank"
                                     href="https://github.com/AlaminPu1007?tab=repositories"
+                                    rel="noreferrer"
                                 >
                                     <AiFillGithub size={25} />
                                 </a>
                                 <a
                                     target="_blank"
                                     href="https://www.linkedin.com/in/md-al-amin-b12104162/"
+                                    rel="noreferrer"
                                 >
                                     <AiFillLinkedin size={25} />
                                 </a>
                                 <a
                                     target="_blank"
                                     href="https://www.facebook.com/profile.php?id=100008389202824"
+                                    rel="noreferrer"
                                 >
                                     <AiFillFacebook size={25} />
                                 </a>
                             </div>
                             <div className="button-style">
                                 <a
-                                    href="https://doc-00-3k-docs.googleusercontent.com/docs/securesc/cvbgbg8qeik757ojdj333f0ukvtttmt8/mhi62trdk3h0ia1vges56g57p6o4sg0i/1680933825000/07520850749602447737/07520850749602447737/123nZKwQSHe4P5nOEBbJX4UKHtqEMuzFl?e=download&ax=ALy03A7gRd4ZXWLybdiDfGK20jp4HnRiffy544qoQkGlimQYocD5GEIdNGeMT0dI9KzOpw1UFxEQBiYtiAEP1A79dm3vErMCBAngWIf-LuNUSQTYg1K6Csf_KhJtckBGO27NubZOtV8eTKjJthAn0TgHaPK6iTNWvfl8bHiaRgc_PfEfuQ7QixewBZXfsIRuHGPhqun_B-QeEiHZxgsu9dfaxNsTdV6Jd-7QBoWq1xw0HPGD7D0_bxTNw4i31kT3_47gl0X7T3JcNOaSlpfaXYoH-kKPDA_Ru_STb1NrQ7uvjZIXtXguzf9KNN9E0T6DtQl9bYIZZeDjP2eCpMtfD2tFpaNgIiHKRHAqqngX2XERaj3SwV3L3rGQp4neGOPl5PWhzSunguM6rkSpVuE4aoZNB2T6RxzW-SnlXFv_eqFUsXO_dkT8C2qIegiu2zDWvLVoxGzdWnXU_J69SxJacZLr4SCmuhsw_RcvM6vWhRJxktYud_sqYO4F4jLttf9wJWYoGxc4cALc5V3YRiJM7jIobqQfTgag1K28wO3WNrKglxTbnvHs4Gtr7tOvb6i21vmwWPd_P8CHjeISIqyP5Y8HgPGyrD5fvjEkFbEZ8Xu2ZYtBTdSZEJ2XVGW_noei_6mf_k6t5qi_XuXE-Q52KpkHD7F7PZv2rZe9CJQvMnilNTRKHDOtDHXVH10PsSdzUr7qGNfB_HcXzPpm-AIVgsQ1mkPFWm1JLuvwHbZ1uAmrweXncSbAN7cwo1hX2knEsiOPOzjCWBeSPAYcXaCgdVbINrxJqbAh_4P4oagWnJPm9CHs__VU9mjtmg7P-9niV1NpTEf0FK9NrZMque2Fn2vM539dATBzZ7XE_WOLIYgNIlpQJ1hN2isC7xeIdeOIYaQ&uuid=dcdb1915-4bc3-4d75-bde9-f751a228bf9e&authuser=0"
+                                    href="https://drive.google.com/u/0/uc?id=123nZKwQSHe4P5nOEBbJX4UKHtqEMuzFl&export=download"
                                     type="button"
                                     class="custom-button"
                                     style={{ textDecoration: "none" }}
+                                    rel="noreferrer"
                                 >
                                     <BiArrowToBottom
                                         size={20}
@@ -145,7 +155,12 @@ const Dashboard = () => {
                                 <div className="services-section">
                                     <AiOutlineDesktop size={50} />
                                     <h3>Web Development</h3>
-                                    <p style={{ minHeight: "300px", overflow: 'hidden' }}>
+                                    <p
+                                        style={{
+                                            minHeight: "300px",
+                                            overflow: "hidden",
+                                        }}
+                                    >
                                         I am a web developer with a passion for
                                         creating user-friendly and intuitive web
                                         applications using React. With over some
@@ -165,7 +180,12 @@ const Dashboard = () => {
                                 <div className="services-section">
                                     <GrDeploy size={50} />
                                     <h3>Deploy Applications</h3>
-                                    <p style={{ height: "300px",  overflow: 'hidden' }}>
+                                    <p
+                                        style={{
+                                            height: "300px",
+                                            overflow: "hidden",
+                                        }}
+                                    >
                                         As someone with three years of
                                         experience in deploying web applications
                                         and uploading mobile applications on
@@ -200,7 +220,7 @@ const Dashboard = () => {
                             <div className="my-projects">
                                 <div className="single-project">
                                     <div>
-                                        <img src={GVIMAGE} />
+                                        <img src={GVIMAGE} alt="images" />
                                     </div>
                                     <div className="project-description">
                                         <h3>Web Application</h3>
@@ -242,6 +262,7 @@ const Dashboard = () => {
                                             <a
                                                 target="_blank"
                                                 href="https://stage-front.mylearning101.co.uk/home"
+                                                rel="noreferrer"
                                             >
                                                 Live Demo
                                             </a>
@@ -251,7 +272,7 @@ const Dashboard = () => {
 
                                 <div className="single-project">
                                     <div>
-                                        <img src={MICPLE} />
+                                        <img src={MICPLE} alt="images" />
                                     </div>
                                     <div className="project-description">
                                         <h3>Mobile Application</h3>
@@ -299,6 +320,7 @@ const Dashboard = () => {
                                             <a
                                                 target="_blank"
                                                 href="https://play.google.com/store/apps/details?id=com.micple&hl=en&gl=US"
+                                                rel="noreferrer"
                                             >
                                                 Play Store
                                             </a>
@@ -306,6 +328,7 @@ const Dashboard = () => {
                                             <a
                                                 target="_blank"
                                                 href="https://apps.apple.com/us/app/micple/id6873965874"
+                                                rel="noreferrer"
                                             >
                                                 App Store
                                             </a>
@@ -316,7 +339,7 @@ const Dashboard = () => {
                                 {/* single project render */}
                                 <div className="single-project">
                                     <div>
-                                        <img src={MealManager} />
+                                        <img src={MealManager} alt="images" />
                                     </div>
                                     <div className="project-description">
                                         <h3>Mobile Application</h3>
@@ -360,12 +383,14 @@ const Dashboard = () => {
                                             <a
                                                 target="_blank"
                                                 href="https://play.google.com/store/apps/details?id=com.messmanager"
+                                                rel="noreferrer"
                                             >
                                                 Play Store
                                             </a>
                                             &nbsp; &nbsp;
                                             <a
                                                 target="_blank"
+                                                rel="noreferrer"
                                                 href="https://github.com/AlaminPu1007/Meal-Manager"
                                             >
                                                 Source Code
@@ -378,7 +403,7 @@ const Dashboard = () => {
                                 {/* single project render */}
                                 <div className="single-project">
                                     <div>
-                                        <img src={Ecommerce} />
+                                        <img src={Ecommerce} alt="images" />
                                     </div>
                                     <div className="project-description">
                                         <h3>Web Application</h3>
@@ -438,7 +463,7 @@ const Dashboard = () => {
                                 <div className="single-project">
                                     <div>
                                         {/*eslint-disable-next-line jsx-a11y/alt-text*/}
-                                        <img src={enosis} />
+                                        <img src={enosis} alt="images" />
                                     </div>
                                     <div className="project-description">
                                         <h3>Mobile Application</h3>
