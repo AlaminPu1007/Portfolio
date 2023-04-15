@@ -442,7 +442,7 @@ const Dashboard = () => {
                                         <div>
                                             <a
                                                 target="_blank"
-                                                href="https://alamin-ecommerce.herokuapp.com/"
+                                                href="https://e-bazars.netlify.app/"
                                                 rel="noreferrer"
                                             >
                                                 Live Demo
