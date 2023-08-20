@@ -65,7 +65,7 @@ const Dashboard = () => {
                                 </a>
                                 <a
                                     target="_blank"
-                                    href="https://www.linkedin.com/in/md-al-amin-b12104162/"
+                                    href="https://www.linkedin.com/in/md-alamin66/"
                                     rel="noreferrer"
                                 >
                                     <AiFillLinkedin size={25} />
