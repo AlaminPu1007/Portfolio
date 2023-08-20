@@ -82,7 +82,7 @@ const Dashboard = () => {
                                 <a
                                     href="https://drive.google.com/u/0/uc?id=1lYDGLGp7aW2Qal3n_JtM3EgkmzV3YexA&export=download"
                                     type="button"
-                                    class="custom-button"
+                                    className="custom-button"
                                     style={{ textDecoration: "none" }}
                                     rel="noreferrer"
                                 >
